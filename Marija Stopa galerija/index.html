@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<title>Galerija</title>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stil/galerija.css">
+</head>
+
+<body>
+
+    <div style="text-align:center">
+        <h2 style="color:whitesmoke;">Galerija</h2>
+        <p style="color:whitesmoke;">Kliknite na uputstvo, pre upotrebe :)</p>
+    </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="document.location = 'uputstvo.html'">Uputstvo</button>
+        <button class="tablinks" onclick="document.location = 'autor.html'">O autoru</button>
+        <button class="tablinks" onclick="document.location = 'index.html'">Početna</button>
+    </div>
+
+
+    <div class="kont">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg">
+        <div id="imgtext"></div>
+    </div>
+    <div class="red">
+        <div class="slika">
+            <img src="slike/slika1.jpg" alt="More" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="slika">
+            <img src="slike/slika2.jpg" alt="Jezero" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="slika">
+            <img src="slike/slika3.jpg" alt="Priroda" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="slika">
+            <img src="slike/slika4.jpg" alt="Planina" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="slika">
+            <img src="slike/slika5.jpg" alt="Zalazak sunca" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="slika">
+            <img src="slike/slika6.jpg" alt="Pustinja" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="slika">
+            <img src="slike/slika7.jpg" alt="Cvet" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="slika">
+            <img src="slike/slika8.jpg" alt="Pogled" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="slika">
+            <img src="slike/slika9.jpg" alt="Grad" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="slika">
+            <img src="slike/slika10.jpg" alt="Odsjaj" style="width:100%" onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="galerija.js"></script>
+
+</body>
+
+</html>
